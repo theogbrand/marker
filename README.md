@@ -88,6 +88,8 @@ First, some configuration:
 
 ```shell
 marker_single /path/to/file.pdf /path/to/output/folder --batch_multiplier 2 --max_pages 10 --langs English
+
+marker_single /home/ob1/ob1-projects/marker/pdf/platonic.pdf /home/ob1/ob1-projects/marker/out --batch_multiplier 2 --max_pages 10 --langs English
 ```
 
 - `--batch_multiplier` is how much to multiply default batch sizes by if you have extra VRAM.  Higher numbers will take more VRAM, but process faster.  Set to 2 by default.  The default batch sizes will take ~3GB of VRAM.
