@@ -105,8 +105,8 @@ Make sure the `DEFAULT_LANG` setting is set appropriately for your document.  Th
 ## Convert multiple files
 
 ```shell
-scp -r /Users/ob1/Documents/papers/cant ob1@gcp-2:/home/ob1/ob1-projects/marker/in
-marker /home/ob1/ob1-projects/marker/in/cant /home/ob1/ob1-projects/marker/out --workers 10
+scp -r /Users/ob1/Documents/papers/undone/2 ob1@gcp-2:/home/ob1/ob1-projects/marker/in
+marker /home/ob1/ob1-projects/marker/in/2 /home/ob1/ob1-projects/marker/out/2 --workers 10
 marker /path/to/input/folder /path/to/output/folder --workers 10 --max 10 --metadata_file /path/to/metadata.json --min_length 10000
 ```
 
